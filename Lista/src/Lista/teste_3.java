@@ -12,7 +12,7 @@ public class teste_3 {
 	OutputStream output = new FileOutputStream("/lixo/meuArquivobyte.txt");
 	byte[] bytes = new byte[]
 	{
-	'A', 'B', 'D', 'E', 'F', 'G','H','I', 'J'
+	'A', 'B', 'D', 'E', 'F', 'G','H','I', 'J', (byte) 'Ç'
 	};
 	int count = bytes.length;
 	while (count >= 0)
